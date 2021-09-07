@@ -323,7 +323,7 @@
         <dependency>
             <groupId>com.github.jnr</groupId>
             <artifactId>jnr-unixsocket</artifactId>
-            <version>0.18</version>
+            <version>0.38.9</version>
         </dependency>
         <dependency>
             <groupId>javax.xml.bind</groupId>
@@ -409,8 +409,7 @@
                     </filters>
                     <transformers>
                         <!--The ServicesResourceTransformer is needed to make jersey happy-->
-                        <transformer
-                                implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                     </transformers>
                 </configuration>
             </plugin>
