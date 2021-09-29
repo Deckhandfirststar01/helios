@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update \
